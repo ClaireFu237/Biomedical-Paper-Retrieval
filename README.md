@@ -19,15 +19,13 @@ cd final_version
 Expected layout:
 
 ```text
-final_version/
   data/
     question_abstract_pairs.jsonl
     training13b.json
     abstracts_only.jsonl
     questions_only.jsonl
-  models/              # created after downloading/training models
   result/
-  scriptsv/
+  scripts/
     README_RUN.md
     get_retrieval_train_dev_test_data.py
     download_model.py
